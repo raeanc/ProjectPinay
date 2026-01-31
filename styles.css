@@ -3,8 +3,11 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-colour: #fdddea; 
 }
+body {
+  background-color: ##ffe6f0;
+}
+
 
 header {
   background-color: #fdddea;
