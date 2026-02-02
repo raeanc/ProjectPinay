@@ -13,8 +13,10 @@ header {
 }
 
 footer {
+  text-align: center;
+  padding: 20px;
   background-color: #fdddea;
-  color: #fdddea;
+  color: #ffffff;
   padding: 1rem;
 }
 
