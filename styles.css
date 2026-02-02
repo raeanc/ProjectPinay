@@ -14,15 +14,30 @@ nav {
   background-color: #2b2b2b;
 }
 
-header {
+/* Main Page SECTION */
+.Mainpage {
+  min-height: 80vh;               
   display: flex;
-    background-color: #fdddea;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 80vh;
+  flex-direction: column;          
+  justify-content: center;        
+  align-items: center;             
   text-align: center;
+  background-color: #fdddea;     
   padding: 40px 20px;
+}
+
+.Mainpage h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #ffffff;              
+}
+
+.Mainpage p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 25px;
+  color: #ffffff;
 }
 
 footer {
