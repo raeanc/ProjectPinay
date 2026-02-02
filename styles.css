@@ -30,3 +30,24 @@ main {
   padding: 2rem;
 }
 
+#Past runs h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.past-runs {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 250px;
+  margin: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  vertical-align: top;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.past-runs:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
