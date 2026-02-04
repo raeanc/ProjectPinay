@@ -16,7 +16,7 @@ nav {
 
 /*OPENER*/
 .Opener {
-  min-height: 10vh;
+  min-height: 40vh;
   background: #fdddea
     display: flex;
   justify-content: center;
@@ -39,14 +39,14 @@ nav {
 .Opener h1 {
   font-size: 4rem;
   font-weight: 700;
-color: #ffffff;
+color: #000000;
   margin-bottom: 1rem;
 line-height: 1.2;
         }
 
 .Opener-line {
 font-size: 1.5rem;
-color: #ffffff;
+color: #000000;
 margin-bottom: 2.5rem;
 font-weight: 300;
         }
@@ -54,9 +54,9 @@ font-weight: 300;
 .Opener-pic {
   width: 100%;
   height: auto;
-  max-height: 100px; 
+  max-height: 20px; 
   object-fit: cover;   
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 /* ABOUT SECTION */
