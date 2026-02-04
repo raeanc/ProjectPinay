@@ -77,8 +77,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
-  padding-top: 100px;
+  padding: 1rem;
+  padding-top: 50px;
   position: relative;
   overflow: hidden;
 }
@@ -86,7 +86,7 @@ body {
 .Open-container {
   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
   max-width: 1200px;
   width: 100%;
   position: relative;
@@ -125,12 +125,12 @@ body {
 
 .Open-image {
   flex: 1;
-  max-width: 500px;
+  max-width: 700px;
 }
 
 .Open-image img {
   width: 100%;
-  height: 600px;
+  height: 500px;
   max-height: 700px;
   object-fit: cover;
   border-radius: 20px;
