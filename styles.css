@@ -73,7 +73,7 @@ body {
 /* OPEN SECTION */
 .Open {
   min-height: 50vh;
-  background: #edc5d8;
+  background: #fdddea;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,7 +101,7 @@ body {
   right: -10%;
   width: 500px;
   height: 500px;
-  background: ##edc5d8;
+  background: #fdddea;
   border-radius: 50%;
   filter: blur(100px);
 }
@@ -113,7 +113,7 @@ body {
   left: -10%;
   width: 400px;
   height: 400px;
-  background: ##edc5d8;
+  background: #fdddea;
   border-radius: 50%;
   filter: blur(80px);
 }
