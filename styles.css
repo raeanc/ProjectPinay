@@ -101,7 +101,7 @@ body {
   right: -10%;
   width: 500px;
   height: 500px;
-  background: rgba(255, 255, 255, 0.3);
+  background: #fee7f0;
   border-radius: 50%;
   filter: blur(100px);
 }
@@ -113,7 +113,7 @@ body {
   left: -10%;
   width: 400px;
   height: 400px;
-  background: rgba(255, 182, 193, 0.2);
+  background: #fee7f0;
   border-radius: 50%;
   filter: blur(80px);
 }
@@ -193,7 +193,7 @@ body {
 
 .box:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+  box-shadow: #00000033;
 }
 
 .box h3 {
@@ -208,14 +208,14 @@ body {
   line-height: 1.5;
 }
 
-/* PROJECTS SECTION */
-#projects {
+/* PAST RUNS SECTION */
+#past-runs {
   padding: 80px 20px;
   background-color: #ffe6f0;
   text-align: center;
 }
 
-#projects h2 {
+#past-runs h2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
   color: #2b2b2b;
@@ -228,7 +228,7 @@ body {
   width: 250px;
   margin: 15px;
   padding: 20px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 20px #00000033;
   overflow: hidden;
   vertical-align: top;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -236,7 +236,7 @@ body {
 
 .past-runs:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+  box-shadow: 0 12px 25px #00000033;
 }
 
 .past-runs h4 {
@@ -260,6 +260,7 @@ body {
 .footer h1 {
   font-size: 2rem;
   margin-bottom: 20px;
+  color: #ffffff
 }
 
 .footer-icons {
@@ -311,24 +312,24 @@ body {
     right: 0;
   }
 
-  .hero-container {
+  .Open-container {
     flex-direction: column;
     gap: 2rem;
   }
 
-  .hero-content {
+  .Open-content {
     text-align: center;
   }
 
-  .hero-image {
+  .Open-image {
     max-width: 100%;
   }
 
-  .hero h1 {
+  .Open h1 {
     font-size: 2.5rem;
   }
 
-  .hero-tagline {
+  .Open-line {
     font-size: 1.1rem;
   }
 
@@ -344,11 +345,11 @@ body {
 }
 
 @media (max-width: 480px) {
-  .hero h1 {
+  .Open h1 {
     font-size: 2rem;
   }
 
-  .hero-tagline {
+  .Open-line {
     font-size: 1rem;
   }
 }
