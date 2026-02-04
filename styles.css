@@ -15,12 +15,12 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 1.5rem 3rem;
+  padding: 1rem 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  background: #faf1f0;
+  background: #fdddea;
   backdrop-filter: blur(10px);
   transition: background 0.3s ease;
 }
