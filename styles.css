@@ -72,7 +72,7 @@ body {
 
 /* OPEN SECTION */
 .Open {
-  min-height: 100vh;
+  min-height: 50vh;
   background: #fee7f0
   display: flex;
   justify-content: center;
@@ -131,10 +131,10 @@ body {
 .Open-image img {
   width: 100%;
   height: auto;
-  max-height: 400px;
+  max-height: 600px;
   object-fit: cover;
   border-radius: 20px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  box-shadow: #323236;
 }
 
 .Open h1 {
