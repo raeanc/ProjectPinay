@@ -14,47 +14,6 @@ nav {
   background-color: #FFFFFF;
 }
 
-.Mainpage {           
-  display: flex;       
-  justify-content: space-between;        
-  align-items: center;             
-  text-align: center;
-  background-color: #fdddea;     
-  padding: 5%;
-  box-sizing: border-boax;
-  gap: 10px
-  height: 20vh
-}
-
-.Mainpage h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 15px;
-  color: #ffffff;              
-}
-
-.Mainpage p {
-  font-size: 1.2rem;
-  max-width: 600px;
-  margin-bottom: 25px;
-  color: #ffffff;
-
-  .left {
-    flex: 1;
-  }
-
-      .right {
-   flex: 1;
-  }
-
-  .right img {
-    width: 100%
-      height: auto
-  object-fit: cover;
-  display: block;
-  max-height: 10vh
-  }
-
 /* ABOUT SECTION */
 .about-section {
   padding: 80px 20px;
