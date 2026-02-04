@@ -73,7 +73,7 @@ body {
 /* OPEN SECTION */
 .Open {
   min-height: 50vh;
-  background: ##edc5d8
+  background: ##edc5d8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -282,7 +282,7 @@ body {
 
 .footer-bottom {
   font-size: 0.9rem;
-  color: #555;
+  color: #ffffff;
 }
 
 /* RESPONSIVE DESIGN */
