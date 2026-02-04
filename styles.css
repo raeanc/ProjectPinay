@@ -52,7 +52,7 @@ nav {
       height: auto
   object-fit: cover;
   display: block;
-  max-height: 40vh
+  max-height: 10vh
   }
 
 /* ABOUT SECTION */
@@ -83,7 +83,7 @@ nav {
   gap: 40px;
 }
 
-.box-thing .box {
+.box {
   background-color: #fdddea;     /* light pink for contrast */
   padding: 30px 20px;
   border-radius: 15px;
