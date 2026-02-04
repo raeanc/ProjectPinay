@@ -36,46 +36,6 @@ nav {
   max-width: 600px;
   margin-bottom: 25px;
   color: #ffffff;
-}
-
-.Mainpage-pic {
-  flex: 1;
-  justify-content: center;
-
-  .Mainpage-pic img {
-    width: 100% 
-      max-width: 480px; 
-    border-radius: 20px 
-      object-fit: cover;
-  }
-
-  .Mainpage-text {
-  flex: 1;
-}
-
-.Mainpage-text h1 {
-  font-size: 3.2rem;
-  font-weight: 700;
-}
-
-.Mainpage-text p {
-  font-size: 1.2rem;
-  margin-top: 15px;
-  max-width: 450px;
-}
-
-
-  @media (max-width: 768px) {
-  .Mainpage {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .Mainpage-text p {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
 /* ABOUT SECTION */
 .about-section {
