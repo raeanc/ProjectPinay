@@ -300,11 +300,11 @@ body {
     border-radius: 8px;
 }
 
-.image-grid.three-columns {
-    grid-template-columns: repeat(3, 1fr);
+.image-grid.four-columns {
+    grid-template-columns: repeat(4, 1fr);
 }
 
-.image-grid.three-columns img {
+.image-grid.four-columns img {
     height: 250px; 
 }
 
@@ -337,7 +337,7 @@ body {
 
   .Open-container {
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .Open-content {
