@@ -127,6 +127,10 @@ body {
   text-shadow: #333;
 }
 
+ .Open-image img {
+        max-width: 100%;
+      }
+
 /* Phone */
 @media (max-width: 768px) {
   .Open h1 {
@@ -337,5 +341,3 @@ body {
     max-width: 400px;
   }
 
-
-}
