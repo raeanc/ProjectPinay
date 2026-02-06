@@ -327,13 +327,12 @@ body {
 
 #collaboration h3 {
   font-size: 1.2rem;
-  margin-bottom: 5px;
   color: #2b2b2b;
 }
 
 #collaboration img {
   width: 150px;
-  height: 150px;
+  height: 80px;
   object-fit: contain;
   margin: 1px;
 }
@@ -348,7 +347,7 @@ body {
 
   #collaboration img {
     width: 120px;
-    height: 120px;
+    height: 80px;
     margin: 1px;
   }
 }
