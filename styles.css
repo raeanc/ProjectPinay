@@ -245,6 +245,14 @@ body {
   border-radius: 6px;
 }
 
+.Intro2pastruns p {
+  margin-top: 2px;
+  font-size: 0.6rem;   
+  line-height: 1.2;    
+  word-wrap: break-word; 
+}
+
+
 .collaboration {
   display: flex;
   flex-wrap: wrap;
