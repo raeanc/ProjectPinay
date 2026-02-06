@@ -257,10 +257,14 @@ body {
   color: #2b2b2b;
 }
 
+.footer p {
+  color: #555
+}
+
 .footer h1 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #ffffff
+  color: #555
 }
 
 .footer-icons {
