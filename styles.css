@@ -369,6 +369,24 @@ body {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+    /* Hide the hamburger menu on larger screens */
+    .hamburger {
+        display: none;
+    }
+
+    /* Ensure the nav links are displayed as a horizontal row on larger screens */
+    .nav-links {
+        display: flex;
+        max-height: none; /* Remove max-height constraint on larger screens */
+        transition: none; /* No transition on desktop */
+    }
+
+    /* Keep the original text size on larger screens */
+    .nav-links a {
+        font-size: 16px; /* Larger font size for desktop */
+    }
+}
 
 
 
