@@ -77,7 +77,7 @@ body {
 
 /* OPEN SECTION */
 .Open {
-  min-height: 800vh;
+  min-height: 80vh;
   background-image: url('resources/pics/5.png');  
   background-size: cover;
   background-position: center;
@@ -86,7 +86,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  padding-top: 100px;
+  padding-top: 10px;
   position: relative;
   overflow: hidden;
 }
@@ -136,6 +136,7 @@ body {
   .Open-line {
     font-size: 1.2rem;
   }
+  
 /* ABOUT SECTION */
 #about {
   padding: 20px 20px;
@@ -335,7 +336,6 @@ body {
     width: 90%;
     max-width: 400px;
   }
-}
 
 
 }
