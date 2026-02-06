@@ -152,11 +152,12 @@ body {
   .Open-line {
     font-size: 1.2rem;
   }
-}
 
   .Open-image {
     max-width: 100%;
   }
+
+}
   
 /* ABOUT SECTION */
 #about {
