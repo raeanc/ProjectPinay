@@ -130,7 +130,7 @@ body {
 
 .Open-image {
   flex: 1;
-  max-width: 500px;
+  max-width: 300px;
 }
 
 .Open-image img {
@@ -253,12 +253,12 @@ body {
   color: #555;
 }
 
-#collaboration img,
+#collaboration img
 .collaboration img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;   /* Fills the space, might crop */
-  border-radius: 10px; /* Optional: rounded corners */
+  width: 150px;
+  height: 150px;
+  object-fit: contain;   
+ 
 }
 
 /* FOOTER */
