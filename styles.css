@@ -60,7 +60,72 @@ body {
 .nav-menu a:hover {
   color: #ff69b4;
 }
+/* Mobile Menu Toggle - Hamburger */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  z-index: 1001;
+}
 
+.menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background: #333;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Hamburger animation when active */
+.menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+/* Mobile Navigation Menu */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;  /* Show hamburger on mobile */
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;  /* Hidden off-screen */
+    height: 100vh;
+    width: 70%;
+    max-width: 300px;
+    flex-direction: column;
+    background: #fdddea;
+    padding: 100px 2rem 2rem 2rem;
+    gap: 2rem;
+    transition: right 0.4s ease;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  .nav-menu.active {
+    right: 0;  /* Slide in from right */
+  }
+
+  .nav-menu li {
+    width: 100%;
+  }
+
+  .nav-menu a {
+    display: block;
+    padding: 10px 0;
+    font-size: 1.2rem;
+  }
+}
 /* Mobile Menu Toggle */
 .menu-toggle {
   display: none;
