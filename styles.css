@@ -498,18 +498,21 @@ body {
     max-width: 100%;
   }
   
-.collaboration {
+  .collaboration {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);  
+    grid-template-columns: repeat(2, 1fr);  /* 2 columns */
     gap: 15px;
-    max-width: 200px; 
-    margin: 0 auto;
+    max-width: 250px;  /* Keeps them small and centered */
+    margin: 20px auto;
+    padding: 10px;
   }
 
   .collaboration img {
-    width: 100%;  
-    height: 100px;  
+    width: 100%;
+    height: 80px;  /* Smaller on mobile */
+    object-fit: contain;
   }
+
   
   .box-thing {
     flex-direction: column;
