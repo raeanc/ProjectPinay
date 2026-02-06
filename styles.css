@@ -77,86 +77,65 @@ body {
 
 /* OPEN SECTION */
 .Open {
-  min-height: 50vh;
-  background: #ffe6f0;
+  min-height: 800vh;
+  background-image: url('resources/pics/5.png');  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  padding-top: 130px;
+  padding: 2rem;
+  padding-top: 100px;
   position: relative;
   overflow: hidden;
 }
 
-.Open-container {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  max-width: 1200px;
-  width: 100%;
-  position: relative;
+.Open:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #00000066;  
   z-index: 1;
 }
 
-/* Decorative elements */
-.Open::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  right: -10%;
-  width: 500px;
-  height: 500px;
-  background: #ffe6f0;
-  border-radius: 50%;
-  filter: blur(100px);
-}
-
-.Open::after {
-  content: '';
-  position: absolute;
-  bottom: -30%;
-  left: -10%;
-  width: 400px;
-  height: 400px;
-  background: #ffe6f0;
-  border-radius: 50%;
-  filter: blur(80px);
-}
-
-.Open-content {
-  flex: 1;
-  max-width: 600px;
-}
-
-.Open-image {
-  flex: 1;
-  max-width: 300px;
-}
-
-.Open-image img {
-  width: 100%;
-  height: 200px;
-  max-height: 300px;
-  object-fit: cover;
-  border-radius: 20px;
-  box-shadow: #323236;
+.Open-content-center {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 800px;
+  color: white;  
 }
 
 .Open h1 {
   font-size: 4rem;
   font-weight: 700;
-  color: #333;
+  color: white;
+  margin-bottom: 1rem;
   line-height: 1.2;
+  text-shadow: 2px 2px 4px #333;  
 }
 
 .Open-line {
-  font-size: 1.3rem;
-  color: #333;
-  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: white;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.6;
+  text-shadow: #333;
 }
 
+/* Phone */
+@media (max-width: 768px) {
+  .Open h1 {
+    font-size: 2.5rem;
+  }
+
+  .Open-line {
+    font-size: 1.2rem;
+  }
 /* ABOUT SECTION */
 #about {
   padding: 20px 20px;
@@ -320,7 +299,7 @@ body {
     height: 250px; 
 }
 
-/* RESPONSIVE DESIGN */
+/* So it looks nice on phones */
 @media (max-width: 768px) {
   .navbar {
     padding: 1rem 1.5rem;
@@ -340,32 +319,11 @@ body {
     padding: 2rem;
     gap: 1.5rem;
     transition: right 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: #333;
   }
 
   .nav-menu.active {
     right: 0;
-  }
-
-  .Open-container {
-    flex-direction: column;
-    gap: 0.2rem;
-  }
-
-  .Open-content {
-    text-align: center;
-  }
-
-  .Open-image {
-    max-width: 100%;
-  }
-
-  .Open h1 {
-    font-size: 2.5rem;
-  }
-
-  .Open-line {
-    font-size: 1.1rem;
   }
 
   .box-thing {
@@ -379,12 +337,5 @@ body {
   }
 }
 
-@media (max-width: 480px) {
-  .Open h1 {
-    font-size: 2rem;
-  }
 
-  .Open-line {
-    font-size: 1rem;
-  }
 }
