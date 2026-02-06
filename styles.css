@@ -257,14 +257,11 @@ body {
   color: #2b2b2b;
 }
 
-.footer p {
-  color: #555
-}
 
 .footer h1 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #555
+  color: ##0a0000
 }
 
 .footer-icons {
@@ -286,7 +283,7 @@ body {
 
 .footer-bottom {
   font-size: 0.9rem;
-  color: #ffffff;
+  color: ##0a0000;
 }
 
 .image-grid {
