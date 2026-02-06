@@ -236,7 +236,12 @@ body {
 }
 
 .past-runs p {
-  color: #555;
+  ax-width: 700px;
+  margin: 0 auto 40px auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555555;
+}
 }
 
 .past-runs img {
