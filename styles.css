@@ -332,16 +332,17 @@ body {
   margin: 1px;
 }
 
-/* Mobile - 2x2 grid */
 @media (max-width: 768px) {
   #collaboration {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
 
   #collaboration img {
-    width: 120px;
+    width: 50%
+      max-width: 50%
     height: 80px;
     margin: 1px;
   }
