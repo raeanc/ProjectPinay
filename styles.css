@@ -243,14 +243,10 @@ body {
   padding: 30px 20px;
   border-radius: 15px;
   width: 300px;
-  box-shadow: #555;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.box:hover {
-  transform: translateY(-5px);
-  box-shadow: #00000033;
-}
+
 
 .box h3 {
   font-size: 1.5rem;
@@ -281,7 +277,7 @@ body {
 
 .past-runs {
   display: inline-block;
-  background-color: #ffffff;
+  background-color: #fdddea;
   border-radius: 15px;
   width: 250px;
   margin: 15px;
@@ -292,10 +288,7 @@ body {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.past-runs:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 25px #00000033;
-}
+
 
 .past-runs h4 {
   font-size: 1.5rem;
