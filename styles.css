@@ -42,10 +42,7 @@ body {
   height: 50px;
   width: auto;
 }
-.logo2 {
-  height: 100px;
-  width: auto;
-}
+
 .nav-menu {
   display: flex;
   list-style: none;
