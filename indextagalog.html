@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="styles.css" />
+  <meta name="google-site-verification" content="Huo4y198agCmYO6eKd1N2qmVHTd_3JLaOzrIK2mZTNc" />
+<!-- Google Font: Outfit -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    
+<meta name="description" content="Project Pinay is an international rotaract initiative under Rotaract Club of Singapore that focuses on educating youths 
+      in the Philippines on puberty & sexual education, in hopes of helping them make more informed choices">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Pinay | Tungkol sa Amin </title>
+  <link rel="stylesheet" href="styles.css">
+ <meta name="description" content=" Project Pinay is an international Rotaract Initiative
+       under Rotaract Club of Singapore that focuses on educating youths 
+      in the Philippines on puberty & sexual education, in hopes of helping them make more informed choices">
+     <!-- Favicon -->
+        <link
+            rel="icon"
+            type="image/png"
+            href="resources/logo/P logo transparent.PNG"
+        />
+    
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="logo-container">
+      <img src="resources/logo/Full logo transparent.PNG" alt="Logo" class="logo">
+          <img src="resources/logo/Singapore.png" alt="Singapore" class="logo">
+        </div>
+            
+    <!-- Hamburger Menu Toggle -->
+  <div class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- Navigation Menu -->
+  <ul class="nav-menu" id="navMenu">
+    <li><a href="indextagalog.html">Tungkol sa Amin</a></li>
+    <li><a href="pastrunstagalog.html">Nakaraang Kaganapan</a></li>
+  </ul>
+</nav>
+
+  <!--Open Section-->
+  <section class="Open">
+    <div class="Open-content-center"> 
+    <h1>Project Pinay</h1>
+        <p class="Open-line">Ayon sa United Nations Population Fund, 1 sa 10 babaeng Pilipino na may edad 15-19 ay mga ina na o umaasa na. Gusto naming baguhin ang mga bagay.</p>
+      </div>
+  </section>
+
+  <!--About-->
+  <section id="about"> 
+    <h2>SINO KAMI?</h2>
+   <a href="index.html">I want to read this site in English! (Gusto kong basahin ito sa Ingles!)</a>  
+    <p>Ang Project Pinay ay isang internasyonal na inisyatiba ng rotaract sa ilalim ng 
+      Rotaract Club of Singapore na nakatuon sa pagtuturo sa mga kabataan sa Pilipinas tungkol sa puberty at edukasyong sekswal, na may layuning matulungan silang makagawa ng mas may kaalamang mga desisyon.</p>
+
+    <div class="box-thing">
+      <div class="box">
+        <h3>ANG AMING MISYON</h3>
+        <p>Magbigay ng edukasyon at kapangyarihan sa mga kabataang Pilipino sa pamamagitan ng 
+          pagbibigay ng abot-kayang edukasyon sa sekswalidad, kamalayan sa pagdadalaga/pagbibinata, at kaalaman sa kalinisan ng regla sa pamamagitan ng mga interaktibong aralin at pakikilahok sa komunidad. </p>
+      </div>
+   
+      <div class="box">
+        <h3>BAKIT "PINAY"?</h3>
+        <p>Ang terminong "Pinay" (pee-nai) ay isang kolokyal na tawag na ginagamit upang tukuyin ang isang Pilipinang babae o dalaga, na siyang pinakapuso ng Project Pinay ang pagbibigay-kapangyarihan sa mga Pilipinang babae at kababaihan!
+        </p>
+      </div>
+
+      <div class="box">
+        <h3>BAKIT ANG PILIPINAS?</h3>
+        <p> Nananatiling labis na mataas ang teenage pregnancy sa Pilipinas, kung saan inilarawan ng 
+          UNFPA, kasabay ng NEDA at POPCOM, ito bilang isang ‘pambansang emerhensiya,’ at binanggit na tanging 28% lamang ng mga kabataang Pilipino ang may access sa komprehensibong edukasyong sekswal sa mga paaralan. </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="collaboration">
+    <h3>IN COLLABORATION WITH</h3> 
+          <img src="resources/logo/District 3800.png" alt="District 3800" >
+            <img src="resources/logo/Caloocan.png" alt="Caloocan" >
+          <img src="resources/logo/Rodriguez.png" alt="Rodriguez">
+     <img src="resources/logo/Angono.png" alt="Angono" >
+          </section>
+    
+  <footer class="footer">
+    <h1>KONTAKTAHIN</h1>
+    <div class="footer-icons">
+      <a href="https://www.instagram.com/projectpinay/">
+        <img src="resources/icons/Instagram Black.svg" alt="Instagram">
+      </a>
+      <a href="mailto:projectpinay@gmail.com">
+        <img src="resources/icons/Mail Black.svg" alt="Email">
+      </a>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Project Pinay. Lahat ng karapatan nakalaan. </span>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Mobile menu toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
+
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+
+    // Close menu when clicking a link
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
